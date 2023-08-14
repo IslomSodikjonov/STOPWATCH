@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background: #fff;
+}  
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.number {
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+
+.counterbtn {
+    height: 50px;
+    width: 80px;
+    font-size: 25px;
+    margin: 0px 12px;
+    border: none;
+    border-radius: 10px;
+    transition: 500ms;
+    user-select: none;  
+}
+
+.counterbtn:hover {
+    scale: 1.1;
+}
+
+.counterbtn:active {
+    scale: 0.9;
+}
+
+.counter .counterbtn:nth-child(3) {
+    background: green;
+}
+
+.counter .counterbtn:nth-child(4) {
+    background: red;
+}
+
+.counter .counterbtn:nth-child(5) {
+    background: black;
+    color: white;
+}
+
+.counterbtn:nth-child(6) {
+    background: silver;
+}
+
+
+
+.stopwatch {
+    margin-top: 100px    ;
+}
+
+.stopwatch .counterbtn:nth-child(3){
+    background: orange;
+}
+
+.stopwatch .counterbtn:nth-child(4){
+    background: blue;
+}
+
+.stopwatch .counterbtn:nth-child(5){
+    background: silver;
+    color: black;
+}
